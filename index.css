@@ -1,0 +1,134 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Section Styling */
+body {
+    background-color: #0b0835de;
+    font-family: "Nunito";
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 1.3rem;
+}
+h1 {
+    font-size: 6rem;
+    font-family: "Lora";
+    color: #ffffff !important;
+    text-shadow: 2px 2px 2px #000000;
+}
+h2 {
+    font-size: 4rem;
+    font-family: "Lora";
+    color: #ffffff !important;
+    text-shadow: 2px 2px 2px #000000;
+}
+h3 {
+    font-size: 3rem;
+    font-family: "Lora";
+    color: #ffffff !important;
+    text-shadow: 2px 2px 2px #000000;
+}
+h5 {
+    font-size: 2rem;
+    font-family: "Lora";
+    color: #ffffff !important;
+    text-shadow: 2px 2px 2px #000000;
+}
+p {
+    font-size: 1.8rem;
+    font-family: "Nunito";
+    color: #e7e6ff !important;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#image-bg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background-size: container;
+    background-color: black;
+    opacity: 0.2;
+}
+
+/* Navbar Styling */
+#navbar {
+    font-family: "Nunito";
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    background: #1d1680d7;
+    box-shadow: 0px 4px 23px 0px #00000040;
+    backdrop-filter: blur(30px);
+}
+#navbar span {
+    color: #ffffff !important;
+    font-size: 3rem;
+    font-family: "Amatic SC";
+}
+#navbar #button {
+    background: #b4ab22e0;
+}
+#navbar a {
+    font-size: 1.5rem;
+    color: #ffffff !important;
+    text-shadow: 1px 1px 1px #003f91;
+}
+
+/* Hero Section Styling */
+#hero {
+    background: #b84037a6;
+    background-image: url("./images/herobg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    backdrop-filter: blur(30px);
+    display: flex;
+}
+#hero a {
+    font-size: 2rem;
+    text-decoration: none;
+    background: #b8b63741;
+    color: #ffffff !important;
+    text-shadow: 1px 1px 1px #003f91;
+    backdrop-filter: blur(30px);
+}
+
+/* Menu Section Styling */
+#menu {
+    background: #beb67385;
+    backdrop-filter: blur(30px);
+}
+#menu .carousel h2 {
+    font-size: 3rem;
+}
+#menu .carousel p {
+    font-size: 1rem;
+}
+
+/* About Section Styling */
+#about {
+    background: #b84037a6;
+    backdrop-filter: blur(30px);
+}
+#about .card {
+    background: #b84037a6;
+    backdrop-filter: blur(30px);
+}
+
+/* Footer Styling */
+#footer {
+    background: #d6d190;
+}
+#footer a {
+    font-family: "Quicksand";
+    color: #06020f !important;
+}
+#footer span {
+    font-family: "Quicksand";
+    color: #1d0d0d !important;
+}
